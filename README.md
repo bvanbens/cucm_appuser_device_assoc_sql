@@ -1,10 +1,10 @@
 # cucm_appuser_device_assoc_sql
-This simple script will create SQL command that can be run in the CLI (SSH session) of a Cisco Call Manager (CUCM) to associate (or disassoicate)
+This simple script will create SQL command that can be run in the CLI (SSH session) of a Cisco Call Manager (CUCM) to associate (or disassociate)
 devices from an Application user (Or list of multiple application users)  
-The script inputs a text file with a list of devices to be assoicated (or disassociated)  
+The script inputs a text file with a list of devices to be associated (or disassociated)  
 One device per row.  
 It will output 2 files per Application user provided  
-One to associate, one to disassoicate  
+One to associate, one to disassociate  
 
 ### Example devices.txt file is provided  
 rename `devices.txt.example` to `devices.txt`
