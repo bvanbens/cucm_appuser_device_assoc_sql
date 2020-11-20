@@ -6,7 +6,7 @@
 # Author: Brian Van Benschoten     Email: bvanbenschoten@presidio.com
 # Company:  Presidio
 # -----
-# Last Modified: Wednesday October 28th 2020 2:30:15 pm
+# Last Modified: Friday November 20th 2020 11:38:41 am
 # Modified By: Brian Van Benschoten
 # -----
 # Insert History line  ctrl-alt-C, ctrl-alt-C. (do it twice)
@@ -54,7 +54,8 @@ with open(input_file_name, 'r') as i:
 app_users_list = ['DAL_RMCM', 'WFM_REC01']
 counter = 1
 ## not sure of the limit of the number of devices that can be included in a single SQL command
-## tested with 16 device 2020-10-27-BV
+## tested with 16 devices on CUCM 10.5 -  2020-10-27-BV
+## tested with 32 devices on CUCM 10.5 -  2020-11-11-BV
 for device in device_list:
     if counter < len(device_list):
         device_string = device_string + f"'{device}'" + ","
